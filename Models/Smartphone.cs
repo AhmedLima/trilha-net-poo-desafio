@@ -16,7 +16,7 @@ namespace DesafioPOO.Models
             Memoria = memoria;
         }
 
-        public void Ligar()
+        public virtual void Ligar()
         {
             Console.WriteLine("Ligando...");
         }
@@ -27,5 +27,6 @@ namespace DesafioPOO.Models
         }
 
         public abstract void InstalarAplicativo(string nomeApp);
+
     }
 }

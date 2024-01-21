@@ -6,9 +6,15 @@ namespace DesafioPOO.Models
         {
 
         }
+
+        public override void Ligar()
+        {
+            Console.WriteLine("Ligando de samsung ...");
+        }
         public override void InstalarAplicativo(string nomeApp)
         {
             Console.WriteLine($"Instalando o aplicativo {nomeApp} no Samsung");
         }
+
     }
 }
