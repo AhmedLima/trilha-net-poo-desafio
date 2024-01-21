@@ -13,5 +13,9 @@ iphone.Ligar();
 iphone.ReceberLigacao();
 iphone.InstalarAplicativo("Whatsapp");
 
-
+Console.WriteLine("Smartphone Samsung: ");
+Smartphone samsung = new Samsung(numero: "09", modelo: "Modelo 32", imei: "5983845622", memoria: 64);
+samsung.Ligar();
+samsung.ReceberLigacao();
+samsung.InstalarAplicativo("telegram");
 
